@@ -19,3 +19,34 @@ form div {
   margin: 1em;
   display: inline-block;
 }
+
+.pokerGameContainer {
+  background-color: grey;
+}
+
+.playerContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: mediumseagreen;
+  border: black;
+  padding: 20px;
+}
+
+.userContainer {
+  background-color: rgba(145, 27, 27, 0.9);
+  margin: 10px;
+  padding: 10px;
+}
+
+.gameTable {
+  display: flex;
+  justify-content: center;
+}
+
+.pot {
+  padding: 20px;
+}
+
+.cards {
+  padding: 20px;
+}
